@@ -1,0 +1,89 @@
+:root{
+    --primary: #e62424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/background.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: var(--primary);
+    font-size: 10px;
+    align-items: center;
+    background: var(--primary);
+    box-shadow: 3px 3px 5px #701c1c;
+    box-sizing: border-box;
+}
+
+#logo {
+    background: url(./assets/logo.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    gap: 4rem;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    color: #000;
+    font-size: 32px;
+}
+
+button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 40px;
+    height: 100%;
+}
+
+.title {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: absolute;
+    text-align: left;
+    font-size: 9rem;
+    font-weight: bold;
+    color: var(--primary);
+    top: 46%;
+    left: 50px;
+}
+
+.subtitle{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: absolute;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--primary);
+    top: 64%;
+    left: 50px;
+}
