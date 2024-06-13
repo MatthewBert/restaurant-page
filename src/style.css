@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary: #e62424;
 }
 
@@ -57,6 +57,7 @@ button:hover {
     align-items: center;
 }
 
+/* Home styles */
 .home {
     display: flex;
     flex-direction: column;
@@ -77,7 +78,7 @@ button:hover {
     left: 50px;
 }
 
-.subtitle{
+.subtitle {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     position: absolute;
     text-align: left;
@@ -86,4 +87,54 @@ button:hover {
     color: var(--primary);
     top: 64%;
     left: 50px;
+}
+
+/* Menu styles */
+.menu-container {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 55rem;
+    border: 12px solid #701c1c;
+    background-color: #1a1a1a;
+}
+
+.menu-header {
+    color: var(--primary);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.menu-items {
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 50px;
+}
+
+.item-card {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 10px;
+    align-content: start;
+}
+
+
+.item-card img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 20px;
+    border: 3px solid #701c1c;
+}
+
+.item-name {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
 }
