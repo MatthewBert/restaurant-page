@@ -125,7 +125,6 @@ button:hover {
     align-content: start;
 }
 
-
 .item-card img {
     width: 14rem;
     height: 14rem;
@@ -136,5 +135,39 @@ button:hover {
 .item-name {
     font-size: 24px;
     font-weight: 900;
+    text-align: center;
+}
+
+/* About styles */
+.about-container {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.about-card {
+    background-color: #1a1a1a;
+    border: 3px solid #701c1c;
+    max-width: 56rem;
+    height: 33rem;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-title {
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: 600;
+    align-self: center;
+}
+
+.about-desc {
+    color: var(--primary);
+    font-size: 20px;
     text-align: center;
 }
